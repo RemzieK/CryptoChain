@@ -1,12 +1,453 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\chryptochain.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|solutionrelative:chryptochain.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\chryptochain.infrastructure\\hashing\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|solutionrelative:chryptochain.infrastructure\\hashing\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\chryptochain.infrastructure\\dbcontext\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|solutionrelative:chryptochain.infrastructure\\dbcontext\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\chryptochain.infrastructure\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|solutionrelative:chryptochain.infrastructure\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|solutionrelative:cryptochain.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.application\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|solutionrelative:cryptochain.application\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.application\\dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|solutionrelative:cryptochain.application\\dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|solutionrelative:cryptochain.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|solutionrelative:cryptochain.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6CE38DB-E93A-479D-8F2C-0283A4186556}|CryptoChain.Application\\CryptoChain.Application.csproj|solutionrelative:cryptochain.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.ui\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|solutionrelative:cryptochain.ui\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.ui\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|solutionrelative:cryptochain.ui\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.ui\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|solutionrelative:cryptochain.ui\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\interfaces\\iblockchainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\interfaces\\iblockchainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\interfaces\\ipasswordhashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\interfaces\\ipasswordhashing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\services\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\services\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\exceptions\\invalidtransactionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\exceptions\\invalidtransactionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\interfaces\\itransactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\interfaces\\itransactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\services\\transavtionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\services\\transavtionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\services\\miningdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\services\\miningdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\valueobjects\\coinamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\valueobjects\\coinamount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\valueobjects\\hashvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\valueobjects\\hashvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\entities\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\entities\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.domain\\entities\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C75CBE6-950B-40A1-93AE-D2BF59F6BB6C}|CryptoChain.Domain\\CryptoChain.Domain.csproj|solutionrelative:cryptochain.domain\\entities\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ChryptoChain.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ChryptoChain.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:14:06.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\Hashing\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "ChryptoChain.Infrastructure\\Hashing\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\Hashing\\PasswordHasher.cs",
+              "RelativeToolTip": "ChryptoChain.Infrastructure\\Hashing\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:13:11.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\DbContext\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "ChryptoChain.Infrastructure\\DbContext\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\DbContext\\AppDbContextFactory.cs",
+              "RelativeToolTip": "ChryptoChain.Infrastructure\\DbContext\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:12:55.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\DbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ChryptoChain.Infrastructure\\DbContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\DbContext\\AppDbContext.cs",
+              "RelativeToolTip": "ChryptoChain.Infrastructure\\DbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:12:42.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Application\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "CryptoChain.Application\\Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:12:08.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Application\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "CryptoChain.Application\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:11:50.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WalletDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\WalletDTO.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\WalletDTO.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\WalletDTO.cs",
+              "RelativeToolTip": "CryptoChain.Application\\DTOs\\WalletDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:11:25.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "CryptoChain.Application\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:11:17.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "CryptoChain.Application\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:11:07.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "CryptoChain.Application\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:10:56.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "CryptoChain.UI\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "CryptoChain.UI\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:10:16.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "CryptoChain.UI\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "CryptoChain.UI\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:10:08.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "CryptoChain.UI\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "CryptoChain.UI\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:09:59.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:08:41.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBlockchainRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\IBlockchainRepository.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Interfaces\\IBlockchainRepository.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\IBlockchainRepository.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Interfaces\\IBlockchainRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:06:13.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPasswordHashing.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\IPasswordHashing.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Interfaces\\IPasswordHashing.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\IPasswordHashing.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Interfaces\\IPasswordHashing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:07:58.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PasswordValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Services\\PasswordValidator.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Services\\PasswordValidator.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Services\\PasswordValidator.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Services\\PasswordValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:07:45.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InvalidTransactionException.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Exceptions\\InvalidTransactionException.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Exceptions\\InvalidTransactionException.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Exceptions\\InvalidTransactionException.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Exceptions\\InvalidTransactionException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:06:53.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITransactionValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\ITransactionValidator.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Interfaces\\ITransactionValidator.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Interfaces\\ITransactionValidator.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Interfaces\\ITransactionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:06:36.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TransavtionValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Services\\TransavtionValidator.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Services\\TransavtionValidator.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Services\\TransavtionValidator.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Services\\TransavtionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:05:47.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MiningDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Services\\MiningDomainService.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Services\\MiningDomainService.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Services\\MiningDomainService.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Services\\MiningDomainService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:05:34.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CoinAmount.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\ValueObjects\\CoinAmount.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\ValueObjects\\CoinAmount.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\ValueObjects\\CoinAmount.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\ValueObjects\\CoinAmount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:05:14.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HashValue.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\ValueObjects\\HashValue.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\ValueObjects\\HashValue.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\ValueObjects\\HashValue.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\ValueObjects\\HashValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:05:08.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:04:56.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\Wallet.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Entities\\Wallet.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\Wallet.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Entities\\Wallet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:04:50.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\Transaction.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:04:44.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Block.cs",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\Block.cs",
+              "RelativeDocumentMoniker": "CryptoChain.Domain\\Entities\\Block.cs",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Domain\\Entities\\Block.cs",
+              "RelativeToolTip": "CryptoChain.Domain\\Entities\\Block.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T09:04:32.669Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

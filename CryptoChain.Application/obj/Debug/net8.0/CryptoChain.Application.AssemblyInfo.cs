@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoChain.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+403d1530491385bf1d564afa89d955e57760e45f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoChain.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoChain.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
