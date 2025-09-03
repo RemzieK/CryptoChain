@@ -4,7 +4,7 @@ using CryptoChain.Domain.ValueObjects;
 
 namespace CryptoChain.Domain.Services
 {
-    public class MiningDomainService
+    public class MiningDomainService : IPoWValidator
     {
         private readonly IHashingService _hashingService;
         private readonly int _difficulty;
@@ -30,5 +30,11 @@ namespace CryptoChain.Domain.Services
             block.SetHash(hash, nonce);
 
         }
+        public bool IsPoWValid(Block block)
+        {
+            if (block.Hash == null) return false;
+            return block.Hash.Value.StartsWith(new string('0', _difficulty));
+        }
+
     }
 }

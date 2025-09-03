@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoChain.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+291a2c5fc80fe100b6d8412cadf235f3b2fd0d87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d5761275609bd58a8db547a7ae62cd864c4438b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoChain.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoChain.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,15 +1,11 @@
 ﻿using CryptoChain.Domain.Interfaces;
 using CryptoChain.Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace CryptoChain.Domain.Services
+namespace CryptoChain.Infrastructure.Hashing
 {
-    public class HashingDomainService : IHashingService
+    public class HashingService : IHashingService
     {
         public Hash ComputeHash(int index, DateTime timestamp, string data, Hash previousHash, int nonce)
         {
