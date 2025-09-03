@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CryptoChain.Domain.Services
+namespace CryptoChain.Domain.ValueObjects
 {
-    internal class TransavtionValidator
+    internal class Address
     {
     }
 }

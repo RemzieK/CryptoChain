@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CryptoChain.Domain.ValueObjects
+namespace CryptoChain.Domain.Entities
 {
-    internal class HashValue
+    internal class Blockchain
     {
     }
 }
