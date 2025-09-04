@@ -1,11 +1,9 @@
 ﻿using CryptoChain.Domain.Aggregates;
+using CryptoChain.Domain.Entities;
 using CryptoChain.Domain.Services;
 using CryptoChain.Domain.ValueObjects;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CryptoChain.Domain.Factory
 {
@@ -13,30 +11,53 @@ namespace CryptoChain.Domain.Factory
     {
         private readonly BlockFactory _blockFactory;
         private readonly MiningDomainService _miner;
+        private readonly object _lock = new(); // ensures thread safety
+        private Blockchain _blockchain;       // keeps reference to the blockchain
 
         public BlockchainFactory(BlockFactory blockFactory, MiningDomainService miner)
         {
-            _blockFactory = blockFactory;
-            _miner = miner;
+            _blockFactory = blockFactory ?? throw new ArgumentNullException(nameof(blockFactory));
+            _miner = miner ?? throw new ArgumentNullException(nameof(miner));
         }
 
-        public void AddNewBlock(Blockchain blockchain, string data)
+        public Blockchain CreateBlockchain(Wallet minerWallet)
         {
-            var previousHash = blockchain.GetLatestBlock().Hash;
-            var newBlock = _blockFactory.CreateBlock(blockchain.Blocks.Count, data, previousHash);
+            if (_blockchain != null)
+                return _blockchain;
 
-            _miner.Mine(newBlock);
+            lock (_lock)
+            {
+                if (_blockchain == null)
+                {
+                    var genesisBlock = _blockFactory.CreateBlock(0, "Genesis Block", new Hash("0"));
 
-            blockchain.AddBlock(newBlock);
+                    _miner.Mine(genesisBlock, minerWallet);
+
+                    _blockchain = new Blockchain(genesisBlock);
+                }
+            }
+
+            return _blockchain;
         }
 
-        public Blockchain CreateBlockchain(int difficulty)
+        public Block AddNewBlock(string data, Wallet minerWallet)
         {
-            var genesisBlock = _blockFactory.CreateBlock(0, "Genesis Block", new Hash("0"));
-            _miner.Mine(genesisBlock);
+            if (_blockchain == null)
+                throw new InvalidOperationException("Blockchain has not been created yet.");
 
-            return new Blockchain(genesisBlock);
+            lock (_lock)
+            {
+                var previousHash = _blockchain.GetLatestBlock().Hash;
+
+                var newBlock = _blockFactory.CreateBlock(_blockchain.Blocks.Count, data, previousHash);
+
+                _miner.Mine(newBlock, minerWallet);
+
+                _blockchain.AddBlock(newBlock);
+
+                return newBlock;
+            }
         }
+       
     }
-
 }

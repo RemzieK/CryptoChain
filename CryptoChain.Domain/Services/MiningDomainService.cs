@@ -7,15 +7,17 @@ namespace CryptoChain.Domain.Services
     public class MiningDomainService : IPoWValidator
     {
         private readonly IHashingService _hashingService;
+        private readonly WalletDomainService _walletService;
         private readonly int _difficulty;
-
-        public MiningDomainService(IHashingService hashingService, int difficulty = 2)
+        
+        public MiningDomainService(IHashingService hashingService, WalletDomainService walletService, int difficulty = 2)
         {
             _hashingService = hashingService;
+            _walletService = walletService;
             _difficulty = difficulty;
         }
 
-        public void Mine(Block block)
+        public void Mine(Block block, Wallet minerWallet)
         {
             int nonce = 0;
             Hash hash;
@@ -29,6 +31,7 @@ namespace CryptoChain.Domain.Services
 
             block.SetHash(hash, nonce);
 
+            _walletService.MiningReward(minerWallet);
         }
         public bool IsPoWValid(Block block)
         {
