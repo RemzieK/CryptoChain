@@ -30,7 +30,7 @@ namespace CryptoChain.Domain.Entities
         {
             if (amount <= 0)
                 throw new ArgumentException("Debit amount must be greater than zero.", nameof(amount));
-            else if (RemcoinBalance < amount)
+            if (RemcoinBalance < amount)
                 throw new InvalidOperationException("Insufficient balance");
 
             RemcoinBalance -= amount;

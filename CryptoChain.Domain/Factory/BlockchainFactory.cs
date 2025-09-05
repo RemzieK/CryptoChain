@@ -29,7 +29,8 @@ namespace CryptoChain.Domain.Factory
             {
                 if (_blockchain == null)
                 {
-                    var genesisBlock = _blockFactory.CreateBlock(0, "Genesis Block", new Hash("0"));
+                    // Genesis block has no transactions
+                    var genesisBlock = _blockFactory.CreateBlock(0, new List<Transaction>(), new Hash("0"));
 
                     _miner.Mine(genesisBlock, minerWallet);
 
@@ -40,7 +41,8 @@ namespace CryptoChain.Domain.Factory
             return _blockchain;
         }
 
-        public Block AddNewBlock(string data, Wallet minerWallet)
+
+        public Block AddNewBlock(List<Transaction> transactions, Wallet minerWallet)
         {
             if (_blockchain == null)
                 throw new InvalidOperationException("Blockchain has not been created yet.");
@@ -49,8 +51,10 @@ namespace CryptoChain.Domain.Factory
             {
                 var previousHash = _blockchain.GetLatestBlock().Hash;
 
-                var newBlock = _blockFactory.CreateBlock(_blockchain.Blocks.Count, data, previousHash);
+                // Create the block with transactions
+                var newBlock = _blockFactory.CreateBlock(_blockchain.Blocks.Count, transactions, previousHash);
 
+                // Mine the block (includes miner reward internally)
                 _miner.Mine(newBlock, minerWallet);
 
                 _blockchain.AddBlock(newBlock);
@@ -58,6 +62,7 @@ namespace CryptoChain.Domain.Factory
                 return newBlock;
             }
         }
-       
+
+
     }
 }

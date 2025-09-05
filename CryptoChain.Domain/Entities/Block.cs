@@ -6,16 +6,16 @@ namespace CryptoChain.Domain.Entities
     {
         public int Index { get;  }
         public DateTime Timestamp { get; }
-        public string Data { get; } 
+        public List<Transaction> Transactions { get; }
         public Hash PreviousHash { get; }
         public Hash Hash { get; private set; }
         public int Nonce { get; private set; }
 
-        public Block(int index, DateTime timestamp, string data, Hash previousHash)
+        public Block(int index, List<Transaction> transactions, Hash previousHash)
         {
             Index = index;
-            Timestamp = timestamp;
-            Data = data;
+            Timestamp = DateTime.UtcNow;
+            Transactions = transactions ?? new List<Transaction>();
             PreviousHash = previousHash ?? throw new ArgumentNullException(nameof(previousHash));
         }
 

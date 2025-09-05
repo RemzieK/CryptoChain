@@ -1,6 +1,7 @@
 ﻿using CryptoChain.Domain.Entities;
 using CryptoChain.Domain.Interfaces;
 using CryptoChain.Domain.ValueObjects;
+using System.Text.Json;
 
 namespace CryptoChain.Domain.Services
 {
@@ -21,17 +22,18 @@ namespace CryptoChain.Domain.Services
         {
             int nonce = 0;
             Hash hash;
+            var transactionsData = JsonSerializer.Serialize(block.Transactions);
 
             do
             {
                 nonce++;
-                hash = _hashingService.ComputeHash(block.Index, block.Timestamp, block.Data, block.PreviousHash, nonce);
+                hash = _hashingService.ComputeHash(block.Index, block.Timestamp, transactionsData, block.PreviousHash, nonce);
 
             } while (!hash.Value.StartsWith(new string('0', _difficulty)));
 
             block.SetHash(hash, nonce);
 
-            _walletService.MiningReward(minerWallet);
+            _walletService.Credit(minerWallet);
         }
         public bool IsPoWValid(Block block)
         {

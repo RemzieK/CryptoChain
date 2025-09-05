@@ -6,10 +6,10 @@ namespace CryptoChain.Domain.Factory
 {
     public class BlockFactory
     {
-        public Block CreateBlock(int index, string data, Hash previousHash)
+        public Block CreateBlock(int index, List<Transaction> transactions, Hash previousHash)
         {
-            var timestamps = DateTime.UtcNow;
-            return new Block(index, timestamps, data, previousHash);
+            return new Block(index, transactions, previousHash);
         }
+
     }
 }
