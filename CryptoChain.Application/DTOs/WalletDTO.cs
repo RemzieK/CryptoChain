@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CryptoChain.Application.DTOs
 {
-    internal class WalletDTO
+    public class WalletDto
     {
+        public Guid WalletId { get; set; }
+        public Guid OwnerId { get; set; }
+        public decimal Balance { get; set; }
     }
 }

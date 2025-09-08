@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CryptoChain.Application.DTOs
 {
-    internal class LoginDTO
+    public class BlockchainDTO
     {
+        public List<BlockDTO> Blocks { get; set; } = new();
     }
 }
