@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.ui\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|solutionrelative:cryptochain.ui\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\cryptochain.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{54804FD0-D1A8-4D03-A98C-3E5D75A2CBB8}|CryptoChain.UI\\CryptoChain.UI.csproj|solutionrelative:cryptochain.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|c:\\users\\remi\\pictures\\visual studio\\cryptochain\\chryptochain.infrastructure\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B39921F3-2DC6-4442-BAEB-C18CC90B597B}|ChryptoChain.Infrastructure\\ChryptoChain.Infrastructure.csproj|solutionrelative:chryptochain.infrastructure\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.Local.json",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\appsettings.Local.json",
+              "RelativeDocumentMoniker": "CryptoChain.UI\\appsettings.Local.json",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\appsettings.Local.json",
+              "RelativeToolTip": "CryptoChain.UI\\appsettings.Local.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-09T06:59:07.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "CryptoChain.UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.UI\\appsettings.json",
+              "RelativeToolTip": "CryptoChain.UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-09T06:58:16.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\ChryptoChain.Infrastructure\\Database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ChryptoChain.Infrastructure\\Database\\AppDbContext.cs",
@@ -59,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RegisterRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\RegisterRequestDTO.cs",
               "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\RegisterRequestDTO.cs",
@@ -71,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TransactionDTO.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\TransactionDTO.cs",
               "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\TransactionDTO.cs",
@@ -83,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\UserDTO.cs",
@@ -91,12 +125,11 @@
               "RelativeToolTip": "CryptoChain.Application\\DTOs\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T17:26:39.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T17:26:39.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "WalletDTO.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\WalletDTO.cs",
               "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\WalletDTO.cs",
@@ -108,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "LoginRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\LoginRequestDTO.cs",
               "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\LoginRequestDTO.cs",
@@ -120,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "BlockDTO.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\BlockDTO.cs",
               "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\BlockDTO.cs",
@@ -132,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BlockchainDTO.cs",
               "DocumentMoniker": "C:\\Users\\Remi\\Pictures\\Visual Studio\\CryptoChain\\CryptoChain.Application\\DTOs\\BlockchainDTO.cs",
               "RelativeDocumentMoniker": "CryptoChain.Application\\DTOs\\BlockchainDTO.cs",
