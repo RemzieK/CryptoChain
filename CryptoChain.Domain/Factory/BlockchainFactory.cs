@@ -2,8 +2,6 @@
 using CryptoChain.Domain.Entities;
 using CryptoChain.Domain.Services;
 using CryptoChain.Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
 
 namespace CryptoChain.Domain.Factory
 {

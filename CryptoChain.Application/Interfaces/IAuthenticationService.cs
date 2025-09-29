@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CryptoChain.Application.DTOs;
 
 namespace CryptoChain.Application.Interfaces
 {
-    internal interface IAuthenticationService
+    public interface IAuthenticationService
     {
+        Task RegsiterAsync(RegisterRequestDTO registerDto);
+        Task<UserDto> LoginAsync(LoginRequestDTO loginDto);
     }
 }

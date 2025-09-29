@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CryptoChain.Domain.Interfaces
+﻿namespace CryptoChain.Domain.Interfaces
 {
-    internal interface IPasswordHashing
+    public interface IPasswordHashing
     {
+        Task<string> HashPasswordAsync(string password);
+        Task<bool> VerifyPasswordAsync(string password, string hash);
     }
 }

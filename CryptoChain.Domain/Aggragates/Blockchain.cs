@@ -1,7 +1,4 @@
 ﻿using CryptoChain.Domain.Entities;
-using CryptoChain.Domain.ValueObjects;
-using CryptoChain.Domain.Services;
-using CryptoChain.Domain.Factory;
 using CryptoChain.Domain.Interfaces;
 
 namespace CryptoChain.Domain.Aggregates

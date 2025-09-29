@@ -1,5 +1,4 @@
 ﻿using CryptoChain.Domain.Entities;
-using CryptoChain.Domain.Interfaces;
 using CryptoChain.Domain.ValueObjects;
 
 namespace CryptoChain.Domain.Factory
