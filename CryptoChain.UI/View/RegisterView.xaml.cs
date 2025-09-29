@@ -24,5 +24,20 @@ namespace CryptoChain.UI.View
         {
             InitializeComponent();
         }
+
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCloseReg_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMinimizeReg_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

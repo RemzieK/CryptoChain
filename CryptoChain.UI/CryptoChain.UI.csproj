@@ -9,8 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\background.jpg" />
+    <None Remove="Assets\email.png" />
+    <None Remove="Assets\key.png" />
+    <None Remove="Assets\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Model\" />
-    <Folder Include="Assets\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +31,13 @@
   <ItemGroup>
     <ProjectReference Include="..\ChryptoChain.Infrastructure\ChryptoChain.Infrastructure.csproj" />
     <ProjectReference Include="..\CryptoChain.Application\CryptoChain.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\background.jpg" />
+    <Resource Include="Assets\email.png" />
+    <Resource Include="Assets\key.png" />
+    <Resource Include="Assets\user.png" />
   </ItemGroup>
 
 </Project>
