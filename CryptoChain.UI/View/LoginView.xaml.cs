@@ -1,20 +1,10 @@
 ﻿using CryptoChain.Application.Interfaces;
 using CryptoChain.UI.Interfaces;
 using CryptoChain.UI.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CryptoChain.UI.View
 {
@@ -41,10 +31,11 @@ namespace CryptoChain.UI.View
 
         private void Register_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            var registerWindow = App.ServiceProvider.GetRequiredService<RegisterView>();
-            registerWindow.Show();
-            this.Close();
+            var registerPage = App.serviceProvider.GetRequiredService<RegisterView>();
+            // Navigate to register page
+            NavigationService?.Navigate(registerPage);
         }
+
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
@@ -53,7 +44,11 @@ namespace CryptoChain.UI.View
 
         private void btnMinimize_Click(object sender, RoutedEventArgs e)
         {
-            System.Windows.State = WindowState.Minimized;
+            Window parentWindow = Window.GetWindow(this);
+            if (parentWindow != null)
+            {
+                parentWindow.WindowState = WindowState.Minimized;
+            }
         }
     }
 }
